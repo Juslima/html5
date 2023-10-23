@@ -1,0 +1,191 @@
+body {
+    margin: 0 auto;
+    width: 960px;
+    font-size: 20px;
+    font-family: Times, serif;
+    background-color: #9a1750;
+    color: #fdeef5;
+}
+
+header[role="banner"] {
+    position: relative;
+    top: 20px;
+    background-color: #9a1750;
+    height: 135px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: white;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    color: #fdeef5;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, .5);
+    margin: 0px 0px 0px 0px;
+}
+
+nav {
+    height: 50px;
+    width: 800px;
+    margin: 0px 0px 0px 60px;
+}
+
+nav ul {
+    text-align: center;
+    font-family: Arial, Verdana;
+    font-size: 18px;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    height: 20px;
+    width: 95px;
+    margin: 0px 55px 0px 5px;
+    white-space: nowrap;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 5px 20px 5px 20px;
+    background: #fdeef5;
+    color: #9a1750;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, .5);
+    border-style: solid;
+    border-width: 4px;
+    border-color: white;
+}
+
+/* End of Navigation Area */
+
+article {
+    position: relative;
+    top: 35px;
+    background-color: #fdeef5;
+    border-style: double;
+    border-width: 10px;
+    border-color: white;
+    height: 550px;
+    width: 600px;
+}
+
+article h2 {
+    color: #b01a5c;
+    font-size: 24px;
+    line-height: 14px;
+    margin: 20px 0px 0px;
+    padding: 10px 20px;
+    font-style: bold;
+}
+
+article p {
+    color: rgba(0, 0, 0, .5);
+    font-size: 20px;
+    line-height: 24px;
+    padding: 2px 20px;
+}
+
+#Question {
+    position: relative;
+    top: 30px;
+    background-color: #f3afcd;
+    height: 320px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: white;
+    width: 940px;
+    bottom: 30px;
+}
+
+#Question h2 {
+    white-space: normal;
+    margin: 5px;
+    padding: 10px;
+    line-height: 1;
+}
+
+
+
+section {
+    background-color: #f3afcd;
+    border-style: double;
+    border-width: 4px;
+    border-color: white;
+    padding: 0px;
+    margin: 10px 10px;
+}
+
+section h3 {
+    color: #b01a5c;
+    font-size: 22px;
+    line-height: 14px;
+    margin: 10px 0px 0px 0px;
+    padding: 20px 5px 0px 20px;
+    font-style: bold;
+}
+
+section p {
+    color: #ffffff;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 22px;
+}
+
+#unique-section {
+    text-align: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+}
+
+#unique-section img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+aside {
+    position: relative;
+    top: -535px;
+    left: 640px;
+    background-color: #fdeef5;
+    border-style: solid;
+    border-width: 8px;
+    border-color: white;
+    height: 555px;
+    width: 302px;
+}
+
+aside h2 {
+    color: #b01a5c;
+    font-size: 24px;
+    line-height: 14px;
+    margin: 20px 0px 0px;
+    padding: 10px 20px;
+    font-style: bold;
+}
+
+aside p {
+    color: rgba(0, 0, 0, .5);
+    font-size: 20px;
+    line-height: 22px;
+    padding: 0px 20px 0px 20px;
+}
+
+nav ul li a {
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #f3afcd;
+}
+
+/* Add styles for the footer */
+footer {
+    text-align: center;
+    background-color: #5d001e;
+    color: #FFF;
+    padding: 10px;
+}
