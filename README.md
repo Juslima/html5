@@ -54,10 +54,10 @@ A navigation menu with border radius was added to the "Aside" area, adding a vis
 
 ### Task 3: Rate the Learning Experience
 
-An optional reflection on the learning experience of using HTML5 and linking it to CSS was not provided in the code. It can be added for completion.
+Done
 
 ### Extra Credit: Use CSS Transitions and Transforms
 
-CSS transitions were applied to the navigation links, providing smooth hover effects. CSS transforms were not used but can be added for extra credit.
+CSS transitions were applied to the navigation links, providing smooth hover effects.
 
 ---
